@@ -55,7 +55,7 @@ class Float
     message = quarters_get.to_s + " quarter(s) and " + dimes_get.to_s + " dime(s) and " + nickels_get.to_s + " nickel(s) and " + pennies_get.to_s + " pennie(s)"
 
     if quarters_get == 8
-      "We are now out of quarters, you will recieve the rest of your change in other denominations as available. " + message
+      "We are now out of quarters, you will recieve the rest of your change in other denominations as available. <br>" + message
     else
       message
     end
